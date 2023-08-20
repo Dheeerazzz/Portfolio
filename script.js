@@ -42,3 +42,18 @@ document.addEventListener("DOMContentLoaded", function () {
     // Attach scroll event listener
     window.addEventListener("scroll", toggleAboutVisibility);
 });
+
+
+
+const movingGif = document.querySelector('.moving-gif');
+
+movingGif.addEventListener('animationiteration', () => {
+  if (movingGif.src.includes('images/mario.gif')) {
+    movingGif.src = 'images/mario-reverse.gif';
+    movingGif.style.animationName = 'moveRightToLeft';
+  } else {
+    movingGif.src = 'images/mario.gif';
+    movingGif.style.animationName = 'moveLeftToRight';
+  }
+});
+
