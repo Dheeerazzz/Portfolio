@@ -394,7 +394,7 @@ abbr[title] {
   
   .moving-gif {
     position: absolute;
-    margin-top: 118px;
+    margin-top: 125px;
     transform: translateY(-50%);
     animation: moveLeftToRight 6s linear infinite;
   }
