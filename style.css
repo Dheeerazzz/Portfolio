@@ -390,6 +390,7 @@ abbr[title] {
     height: 65vh;
     overflow: hidden;
     margin-top: -200px;
+    background-color: #000000;
   }
   
   .moving-gif {
@@ -474,6 +475,7 @@ abbr[title] {
   #contact {
     background-color: #000000;
     padding: 50px 0;
+    margin-bottom: -20px;
 }
 
 .apple {
