@@ -361,6 +361,7 @@ abbr[title] {
     top: 50%;
     transform: translateY(-50%);
     animation: moveLeftToRight 6s linear infinite alternate;
+    background-color: #000;
   }
   
   @keyframes moveLeftToRight {
