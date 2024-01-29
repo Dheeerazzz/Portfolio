@@ -51,20 +51,20 @@ nav ul {
 
 nav ul li {
     text-align: left;
-    padding: 20px 0;
+    padding: 15px 0;
     font-weight: 700;
 }
 
 nav ul li a {
     text-decoration: none;
     color: rgb(197, 184, 184);
-    font-size: 18px;
+    font-size: 20px;
     display: block;
     transition: color 0.3s;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     transform-origin: right center;
-    padding: 10px 5px;
+    padding: 5px 5px;
     padding-left: 25px;
 }
 
@@ -94,7 +94,7 @@ nav ul li a:hover {
 .name-head {
     font-size: 60px;
     font-weight: 700;
-    padding-top: 3400px;
+    padding-top: 4000px;
     margin-left: 500px;
 }
 
@@ -118,9 +118,10 @@ nav ul li a:hover {
     transform: translate(-50%, -50%);
     color: #fff;
 }
-/* ... Existing CSS ... */
+
 
 .about-section {
+
     top:300px;
     position: relative;
     font-family: 'VT323', monospace;
@@ -554,4 +555,86 @@ button[type="submit"]:hover {
     display: block;
     margin-top: 10px;
     color: green;
+}
+
+
+.jaffa {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0074D9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.jaffa:hover {
+  background-color: #0056a6;
+}
+
+#articles {
+ 
+    top:100px;
+    position: relative;
+    font-family: 'VT323', monospace;
+    z-index: 2;
+    background-color: #000000;
+    color: #ece0e0;
+    padding: 50px 100px;
+    padding-left: 200px;
+    width: calc(100vw + 20px);
+    margin-left: -10px; 
+    box-sizing: border-box;
+    text-align: left;
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding-bottom: 100px;
+    
+
+}
+
+.article-list {
+  color: #000000;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 20px;
+  box-shadow: #fccb06;
+}
+
+.article-list div {
+  background: #e5dbdb;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+.article-list div i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.article-list div h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.article-list div a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.article-list div:hover {
+  background: #00FFFF;
+  transform: translateY(-10px);
 }
